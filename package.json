@@ -1,0 +1,15 @@
+{
+  "name": "electron-sqlite3",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "electron": "^8.0.1",
+    "electron-builder": "^22.3.2",
+    "sqlite3": "^4.1.1"
+  }
+}
